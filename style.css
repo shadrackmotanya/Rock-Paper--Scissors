@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #c78989;
 }
 
 h1 {
@@ -13,22 +13,64 @@ h1 {
 }
 
 button {
+    background-color: rgb(34, 34, 85);
     padding: 10px 20px;
     margin: 10px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 button:hover {
-    background-color: #ddd;
+    background-color: #39377a96;
+    transform: rotate();
 }
 
 #result {
     margin-top: 20px;
-    color: #333;
+    color: #d8b7b7;
+    background-color: #0a4d41;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
 }
 
 #choices {
-    font-size: 18px;
-    color: #555;
+    font-size: 28px;
+    color: #1a0a63;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: #422929;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+#joke {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-style: italic;
+    font-size: 14px;
+    color: #d2d0d6;
+    background: #82a5f0;
+    border-left: 4px solid #ff9800;
+    border-radius: 18px;
+    transition: all 0.3s ease;
+}
+
+.carde {
+    background-color: #776363;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 40px auto;
+    font-weight: bolder;
+    color: rgb(231, 202, 166);
+
 }

@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="card">
 
-    <h1>Rock Paper Scissors ✊✋✌️</h1>
+        <h1>Rock-Paper-Scissors</h1>
 
-    <div class="buttons">
-        <button onclick="playGame('rock')">Rock</button>
-        <button onclick="playGame('paper')">Paper</button>
-        <button onclick="playGame('scissors')">Scissors</button>
+        <p style="font-weight: bolder; color: rgb(151, 110, 55);">
+            By Motanya Shadrack
+        </p>
+
+        <p class="carde">Reload Childhood Memories, or better still, you might be a kid as well😂 </p>
+
+        <div class="buttons">
+            <button onclick="playGame('rock')">✊</button>
+            <button onclick="playGame('paper')">✋</button>
+            <button onclick="playGame('scissors')">✌️</button>
+        </div>
+
+        <h2 id="result">Make your move!</h2>
+
+        <p id="choices"></p>
+
+        <!-- 🎭 NEW: Joke display -->
+        <p id="joke" style="margin-top: 15px; font-style: italic; color: #444;"></p>
+
+        <!-- ✨ small fun footer -->
+        <p style="margin-top: 25px; font-size: 12px; color: gray;">
+            Tip: The computer is always watching 👀
+        </p>
+
+        <script src="script.js"></script>
     </div>
-
-    <h2 id="result">Make your move!</h2>
-
-    <p id="choices"></p>
-
-    <script src="script.js"></script>
 </body>
+
 </html>
