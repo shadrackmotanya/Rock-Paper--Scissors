@@ -26,7 +26,7 @@ function playGame(userChoice) {
     document.getElementById("choices").textContent =
         "You chose " + userChoice + " | Computer chose " + computerChoice;
 
-    // 🎭 JOKES SYSTEM (PERSONALIZED BUT NO NAME)
+    //  JOKES
    const jokes = [
     "That move was so clean the computer needs therapy 😭",
     "You just violated the laws of Rock Paper Scissors physics 💀",
@@ -52,6 +52,6 @@ function playGame(userChoice) {
     // pick random joke
     const randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
 
-    // show joke (make sure you have an element with id="joke")
+    // show joke on page
     document.getElementById("joke").textContent = randomJoke;
 }
