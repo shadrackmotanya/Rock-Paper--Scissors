@@ -23,7 +23,7 @@ button {
 
 button:hover {
     background-color: #39377a96;
-    transform: rotate();
+    transform: scale(1.1);
 }
 
 #result {
@@ -73,4 +73,19 @@ button:hover {
     font-weight: bolder;
     color: rgb(231, 202, 166);
 
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.scoreboard p {
+    background: #200e0e;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: white;
 }
